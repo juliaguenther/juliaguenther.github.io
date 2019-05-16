@@ -1,0 +1,6 @@
+html{font-family: 'Montserrat', sans-serif;}
+
+.linkbox_container{
+  display:flex;
+  flex-wrap: wrap;
+}
