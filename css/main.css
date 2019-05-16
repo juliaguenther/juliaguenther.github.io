@@ -36,14 +36,14 @@ a[class*="linkbox"]{
 }
 
 .linkbox_small{
-  width: 15%;
+  min-width: 15%;
   width: calc((200px - 100%) * 1000);
   max-width: 100%;
   background-color: #226597;
 }
 
 .linkbox_big{
-  width: 45%;
+  min-width: 45%;
   width: calc((600px - 100%) * 1000);
   max-width: 100%;
   background-color: #113f67;
