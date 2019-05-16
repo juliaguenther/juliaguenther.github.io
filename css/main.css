@@ -20,7 +20,7 @@ html{
   flex-wrap: wrap;
 }
 
-a[class*="linkbox"]{
+li[class*="linkbox"]{
   padding: 8px;
   border: 1px solid;
   height:250px;
@@ -47,4 +47,13 @@ a[class*="linkbox"]{
   width: calc((60em - 100%) * 1000);
   max-width: 100%;
   background-color: #113f67;
+}
+
+.details_banner{
+  height:300px;
+}
+
+p.content img{
+  width: 25%;
+  float:left;
 }
