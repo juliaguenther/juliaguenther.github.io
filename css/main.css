@@ -1,6 +1,28 @@
 html{font-family: 'Montserrat', sans-serif;}
 
+.main_container{
+  width: 80%
+  max-width: 1400px;
+}
+
 .linkbox_container{
   display:flex;
   flex-wrap: wrap;
+}
+
+a[class*="linkbox"]{
+  padding: 8px;
+  border: 1px solid;
+}
+
+.linkbox{
+  width: 400px;
+}
+
+.linkbox_small{
+  width: 250px;
+}
+
+.linkbox_big{
+  width: 600px;
 }
