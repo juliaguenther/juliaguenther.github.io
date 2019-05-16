@@ -30,21 +30,21 @@ a[class*="linkbox"]{
 
 .linkbox{
   min-width: 25%;
-  width: calc((800px - 100%) * 1000);
+  width: calc((60em - 100%) * 1000);
   max-width: 100%;
   background-color: #87c0cd;
 }
 
 .linkbox_small{
   min-width: 15%;
-  width: calc((800px - 100%) * 1000);
+  width: calc((60em - 100%) * 1000);
   max-width: 100%;
   background-color: #226597;
 }
 
 .linkbox_big{
   min-width: 45%;
-  width: calc((800px - 100%) * 1000);
+  width: calc((60em - 100%) * 1000);
   max-width: 100%;
   background-color: #113f67;
 }
