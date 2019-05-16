@@ -9,8 +9,8 @@ html{
 }
 
 .main_container{
-  min-width: 70%;
-  width: calc((1400px - 100%) * 1000);
+  min-width: 65%;
+  width: calc((1200px - 100%) * 1000);
   max-width: 100%;
   margin: 0 auto;
 }
@@ -72,6 +72,6 @@ li[class*="linkbox"] a{
 }
 
 span.content img{
-  width: 25%;
+  width: 35%;
   float:left;
 }
