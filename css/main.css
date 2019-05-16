@@ -70,7 +70,7 @@ li[class*="linkbox"] a{
   height:300px;
 }
 
-p.content img{
+span.content img{
   width: 25%;
   float:left;
 }
