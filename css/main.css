@@ -1,7 +1,8 @@
 html{
   font-family: 'Montserrat', sans-serif;
-  background-color: #f3f9fb;
+  background-color: #353535;
   font-size: 20px;
+  color:#fff;
 }
 
 .headline_1{
@@ -86,9 +87,4 @@ span.content img{
 
 span.content article{
   display: inline-block;
-}
-
-div.content_imagebox{
-  display: flex;
-  align-items: start;
 }
