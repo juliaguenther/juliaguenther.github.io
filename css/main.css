@@ -43,7 +43,9 @@ li[class*="linkbox"] a{
 }
 
 .linkbox a{
-  background-color: rgba(135, 192, 205, 1);
+  background-color: rgba(135, 192, 205, 0.5);
+  color: #fff;
+  text-shadow: 1px 1px 2px black;
 }
 
 .linkbox_small{
@@ -53,7 +55,7 @@ li[class*="linkbox"] a{
 }
 
 .linkbox_small a{
-  background-color: rgba(34, 101, 151, 0.7);
+  background-color: rgba(34, 101, 151, 0.4);
   color: #fff;
   text-shadow: 1px 1px 2px black;
 }
@@ -65,7 +67,9 @@ li[class*="linkbox"] a{
 }
 
 .linkbox_big a{
-  background-color: rgba(17, 63, 103, 1);
+  background-color: rgba(17, 63, 103, 0.6);
+  color: #fff;
+  text-shadow: 1px 1px 2px black;
 }
 
 .details_banner{
@@ -74,6 +78,13 @@ li[class*="linkbox"] a{
 }
 
 span.content img{
-  width: 35%;
+  min-width: 35%;
+  width: calc((800px - 100%) * 1000);
+  max-width: 100%;
+  margin-right: 10px;
   float:left;
+}
+
+span.content article{
+  display: inline-block;
 }
