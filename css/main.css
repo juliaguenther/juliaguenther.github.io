@@ -88,3 +88,8 @@ span.content img{
 span.content article{
   display: inline-block;
 }
+
+div.content_imagebox{
+  display: flex;
+  align-items: start;
+}
