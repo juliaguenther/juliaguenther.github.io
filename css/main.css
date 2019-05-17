@@ -94,7 +94,8 @@ span.content article{
 .pull-right{
   float:right;
 }
- h1 small{
+ h1 small a{
+  color: #fff;
   font-size: 50%;
   margin-top: 18px;
 }
