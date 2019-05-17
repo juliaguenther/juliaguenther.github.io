@@ -5,8 +5,9 @@ html{
   color:#fff;
 }
 
-.headline_1{
-  margin: 1%;
+h1{
+  margin: 5rem 0 2rem;
+  font-size: 3rem;
 }
 
 .main_container{
@@ -34,7 +35,8 @@ li[class*="linkbox"]{
 
 li[class*="linkbox"] a{
   flex-grow: 1;
-  padding: 15px 5px;
+  padding: 30px 5px;
+  font-size: 1.5rem;
 }
 
 .linkbox{
@@ -87,4 +89,12 @@ span.content img{
 
 span.content article{
   display: inline-block;
+}
+
+.pull-right{
+  float:right;
+}
+ h1 small{
+  font-size: 50%;
+  margin-top: 18px;
 }
