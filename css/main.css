@@ -82,7 +82,6 @@ span.content img{
   width: calc((800px - 100%) * 1000);
   max-width: 100%;
   margin-right: 10px;
-  float:left;
 }
 
 span.content article{
