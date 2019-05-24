@@ -84,7 +84,7 @@ li[class*="linkbox"] a{
   margin-bottom: 40px;
 }
 
-span.content img{
+span.content .content_image{
   min-width: 31%;
   width: calc((975px - 100%) * 1000);
   max-width: 100%;
