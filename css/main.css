@@ -13,6 +13,7 @@ html{
   padding: 1rem 0;
   margin-bottom: 2rem;
   text-decoration: none;
+  border-top: 2px solid transparent;
 }
 
 .logo:hover,
