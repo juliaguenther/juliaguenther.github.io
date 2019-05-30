@@ -5,8 +5,19 @@ html{
   color:#fff;
 }
 
+.section_header{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.section_header img{
+  width: 7rem;
+  height: 7rem;
+  border-radius: 5rem;
+}
+
 h1{
-  margin: 5rem 0 2rem;
   font-size: 3rem;
 }
 
@@ -102,4 +113,12 @@ li[class*="linkbox"] a{
   color: #fff;
   font-size: 45%;
   margin-top: 18px;
+}
+
+@media(max-width:400px){
+  h1 small {
+   display: block;
+   font-size: 50%;
+   float: inherit;
+ }
 }
