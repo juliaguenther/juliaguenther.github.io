@@ -15,11 +15,11 @@ html{
   text-decoration: none;
 }
 
-a.logo:hover{
+.logo:hover{
   border-bottom: 1px solid #fff;
 }
 
-a.logo img{
+.logo img{
   width: 7rem;
   height: 7rem;
   border-radius: 5rem;
