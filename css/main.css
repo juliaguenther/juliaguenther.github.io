@@ -125,6 +125,7 @@ li[class*="linkbox"] a{
   width: calc((975px - 100%) * 1000);
   max-width: 100%;
   margin-right: 10px;
+  background-color: #c5c5c5;
 }
 
 .pull-right{
