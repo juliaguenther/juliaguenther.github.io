@@ -5,16 +5,21 @@ html{
   color:#fff;
 }
 
-.section_header{
+a.logo{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   border-bottom: 2px solid #fff;
   padding: 1rem 0;
   margin-bottom: 2rem;
+  text-decoration: none;
 }
 
-.section_header img{
+a.logo:hover{
+  border-bottom: 1px solid #fff;
+}
+
+a.logo img{
   width: 7rem;
   height: 7rem;
   border-radius: 5rem;
@@ -23,11 +28,16 @@ html{
 }
 
 h1{
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 h2{
+  font-size: 2.5rem;
   margin-top: 4rem;
+}
+
+h3{
+  font-size: 2rem;
 }
 
 a{
