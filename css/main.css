@@ -5,7 +5,7 @@ html{
   color:#fff;
 }
 
-a.logo{
+.logo{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
